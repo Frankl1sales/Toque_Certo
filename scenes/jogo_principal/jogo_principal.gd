@@ -65,6 +65,8 @@ func _ready() -> void:
 	repetição = repetição_aleatória()
 	
 	certos_intermediários = 0
+	
+	GameManager.vidas = GameManager.configuração_de_vidas
 
 #region Velocidade
 	match GameManager.velocidade:
